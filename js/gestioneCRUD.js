@@ -103,6 +103,7 @@ function createAdding() {
     parent.after(newadder);
     document.getElementsByClassName("adding-crud")[0].style.display="none";
 }
+
 function reloadPage(){
     window.location.reload();
 }

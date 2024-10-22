@@ -600,13 +600,22 @@ span {
     border: 1px solid #8c9c55;
 }
 /*modify*/
+.modify-title{
+    border-radius:100%;
+    height:35px;
+    width:35px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    background-image: url("/images/icon-modifica.png");
+    background-size: cover;
+}
 .modify{
     border-radius:100%;
     height:35px;
     width:35px;
     border:1px solid white;
     background-color: white;
-    background-image: url("../img/icon-modifica.png");
+    background-image: url("/image/icon-modifica.png");
     background-size: cover;
     transition:0.3s
 }
@@ -678,7 +687,7 @@ span {
     width:35px;
     border:1px solid white;
     background-color: aliceblue;
-    background-image: url("../img/icon-submit.png");
+    background-image: url("../img/icon-modifica.png");
     background-size: cover;
     padding: 6px;
     transition:0.3s
